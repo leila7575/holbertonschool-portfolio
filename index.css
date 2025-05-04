@@ -1,0 +1,103 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    background: #f4f4f4; 
+}
+
+header, footer { 
+    background: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 1em; 
+}
+
+nav a { 
+    margin: 0 1em; 
+    color: white; 
+    text-decoration: none; 
+}
+
+section { 
+    padding: 2em; 
+    max-width: 1000px; 
+    margin: auto; 
+}
+
+h2 { 
+    border-bottom: 2px solid #ccc; 
+    padding-bottom: 0.5em; 
+}
+
+.about img { 
+    max-width: 150px; 
+    border-radius: 50%; 
+}
+
+.about-me { 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.about-me p { 
+    max-width: 600px; 
+    margin-left: 1em; 
+}
+
+.portfolio { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 1em; 
+}
+
+.project { 
+    background: white; 
+    padding: 1em; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+.btn {
+    display: inline-block; 
+    padding: 0.5em 1em; 
+    background: #0066cc; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.btn:hover { 
+    background: #005bb5; 
+}
+
+.project img { 
+    max-width: 100%; 
+    height: auto; 
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact a { 
+    display: inline-block; 
+    margin: 0.5em; 
+    text-decoration: none; 
+}
+
+.resume { 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-direction: row; 
+}
+
+@media (max-width: 600px) {
+    nav { 
+        display: flex; 
+        flex-direction: column; 
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-me">
+                <img src="me.png" alt="Profile picture">
+                <p>
+                    I am a Machine Learning student at Holberton School with a background in industrial pharmacy and a Master's in biotechnology and bioengineering. After completing Holberton’s Foundations program—where I developed a web messaging app using XML and Kotlin—I began the machine learning specialization, focusing on data visualization, deep learning (CNNs), and regularization techniques with Python and TensorFlow. <br> With six years of pharmacy studies and experience in clinical research and quality assurance, I aim to bridge software engineering and biotechnology. I’m particularly motivated by the potential of machine learning to revolutionize pharmaceutical R&D, from automating lab processes to developing innovative diagnostic tools.
+                </p>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>My Projects</h2>
+            <div class="portfolio">
+              <div class="project">
+                <img src="hypheny_logo.png" alt="Project 1">
+                <h3>Hypheny - Instant Messaging App</h3>
+                <p>For my Holberton Foundations final project, I helped develop an Android messaging app with authentication, profile and contact management, and messaging features. The app used XML and Kotlin for the frontend, and Python with Flask for the backend.</p>
+                <a href="https://github.com/ArseneGiriteka/hyphenyApi" target="_blank" class="btn">View README</a>
+              </div>
+          
+              <div class="project">
+                <img src="cifar.png" alt="Project 2">
+                <h3>CIFAR-10 Image Classification with Transfer Learning</h3>
+                <p>Implemented transfer learning using a pre-trained DenseNet121 model to classify images in the CIFAR-10 dataset. Achieved 93.61% validation accuracy through fine-tuning the last 20 layers, applying data augmentation, and using early stopping to prevent overfitting.</p>
+                <a href="https://github.com/leila7575/holbertonschool-machine_learning/tree/main/supervised_learning/transfer_learning" target="_blank" class="btn">View README</a>
+              </div>
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2>My Resume</h2>
+            <div class="resume">
+                <a href="cv.pdf" target="_blank" class="btn">📄 View My Resume Online</a>
+                <a href="cv.pdf" class="btn" download>⬇️ Download My Resume (PDF)</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact">
+                <p>You can find me here:</p>
+                <div class="social-links">
+                    <a href="mailto:leila.louajri@gmail.com" class="btn">Email</a>
+                    <a href="https://www.linkedin.com/in/leila-louajri-4750aa211" target="_blank" class="btn">LinkedIn</a>
+                    <a href="https://github.com/leila7575" target="_blank" class="btn">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Leila Louajri - All rights reserved</p>
+        </footer>
+
+    </body>
+</html>
